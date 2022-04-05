@@ -1,5 +1,5 @@
 #include <stdlib.h>//OpenGL和C++有不太融合的地方，在include时要让标准C++类库的头文件位于GLUT图形库头文件之前。
-#include <GL/glut.h>
+#include "glut.h"
 #include <process.h>
 void RenderScence()
 {
